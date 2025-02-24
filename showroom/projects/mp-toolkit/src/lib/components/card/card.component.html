@@ -1,1 +1,15 @@
-<p>card works!</p>
+<p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+  <ng-template #header>
+      <ng-content select="[header]"></ng-content>
+  </ng-template>
+  <ng-template #title>
+    <ng-content select="[title]"></ng-content>
+  </ng-template>
+  <ng-template #subtitle>
+    <ng-content select="[subtitle]"></ng-content>
+  </ng-template>
+  <ng-content select="[content]"></ng-content>
+  <ng-template #footer>
+    <ng-content select="[footer]"></ng-content>
+  </ng-template>
+</p-card>
