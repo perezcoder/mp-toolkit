@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.text {
+  font-weight: 500;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-bold {
+  font-weight: 700;
+}
