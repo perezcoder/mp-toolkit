@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:lib": "ng build mp-toolkit",
-    "publish:patch": "cd projects/mp-toolkit && npm version patch && git push && npm publish",
+    "publish:patch": "cd projects/mp-toolkit && npm version patch && git push && cd.. && cd.. && npm publish",
     "publish:minor": "cd projects/mp-toolkit && npm version minor && git push && npm publish",
     "publish:major": "cd projects/mp-toolkit && npm version major && git push && npm publish",
     "build-publish-minor": "npm run build:lib && npm run publish:minor",

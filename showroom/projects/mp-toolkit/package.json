@@ -1,10 +1,14 @@
 {
   "name": "mp-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^19.1.0",
     "@angular/core": "^19.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perezcoder/mp-toolkit.git"
   },
   "dependencies": {
     "tslib": "^2.3.0"
