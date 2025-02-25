@@ -1,6 +1,6 @@
 {
   "name": "mp-toolkit",
-  "version": "0.0.10",
+  "version": "0.0.12",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^19.1.0",
