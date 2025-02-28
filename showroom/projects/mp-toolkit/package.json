@@ -1,19 +1,17 @@
 {
   "name": "mp-toolkit",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^19.1.0",
-    "@angular/core": "^19.1.0"
+    "@angular/core": "^19.1.0",
+    "@primeng/themes": "^19.0.9",
+    "primeng": "^19.0.9",
+    "tslib": "^2.3.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/perezcoder/mp-toolkit.git"
-  },
-  "dependencies": {
-    "@primeng/themes": "^19.0.9",
-    "primeng": "^19.0.9",
-    "tslib": "^2.3.0"
   },
   "sideEffects": false,
   "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.",
