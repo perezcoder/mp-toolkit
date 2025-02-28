@@ -11,6 +11,8 @@
     "url": "https://github.com/perezcoder/mp-toolkit.git"
   },
   "dependencies": {
+    "@primeng/themes": "^19.0.9",
+    "primeng": "^19.0.9",
     "tslib": "^2.3.0"
   },
   "sideEffects": false,
@@ -20,9 +22,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@primeng/themes": "^19.0.9",
-    "primeng": "^19.0.9"
-  }
+  "license": "ISC"
 }
