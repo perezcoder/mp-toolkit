@@ -22,7 +22,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@primeng/themes": "^19.0.7",
-    "primeng": "^19.0.7"
+    "@primeng/themes": "^19.0.9",
+    "primeng": "^19.0.9"
   }
 }
