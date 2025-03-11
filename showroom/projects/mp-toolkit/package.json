@@ -1,6 +1,6 @@
 {
   "name": "mp-toolkit",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^19.1.0",
@@ -18,7 +18,9 @@
   "sideEffects": false,
   "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.0.",
   "main": "index.js",
-  "files": ["src/styles.scss"],
+  "files": [
+    "src/styles.scss"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
