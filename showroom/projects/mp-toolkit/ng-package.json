@@ -3,5 +3,10 @@
   "dest": "../../dist/mp-toolkit",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "@primeng/themes",
+    "primeng",
+    "tslib"
+  ]
 }
