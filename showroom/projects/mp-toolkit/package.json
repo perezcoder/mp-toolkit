@@ -20,7 +20,8 @@
   "main": "index.js",
   "files": [
     "/showroom/dist/*",
-    "src/styles.scss"
+    "src/styles.scss",
+    "src"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
