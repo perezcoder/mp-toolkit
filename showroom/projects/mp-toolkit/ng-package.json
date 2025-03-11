@@ -2,8 +2,10 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/mp-toolkit",
   "lib": {
-    "entryFile": "src/public-api.ts"
+    "entryFile": "src/public-api.ts",
+    "styleIncludePaths": ["src"]
   },
+  "assets": ["src/styles.scss"],
   "allowedNonPeerDependencies": [
     "@primeng/themes",
     "primeng",

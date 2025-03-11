@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'mp-card',
   standalone: false,
   templateUrl: './card.component.html',
-  styleUrl: './card.component.css'
+  styleUrl: './card.component.scss'
 })
 export class CardComponent {
 
